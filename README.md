@@ -1,13 +1,15 @@
 env
 ===
-[![Build Status](https://travis-ci.org/goanywhere/env.svg?branch=master)](https://travis-ci.org/goanywhere/env) [![GoDoc](https://godoc.org/github.com/goanywhere/env?status.svg)](http://godoc.org/github.com/goanywhere/env)
+(forked from goanywhere/env)
+
+[![GoDoc](https://godoc.org/github.com/madara-io/env?status.svg)](http://godoc.org/github.com/madara-io/env)
 
 Ease of Accessing Environment Varaibles in Golang
 
 ### Installation
 
 ```shell
-$ go get -v github.com/goanywhere/env
+$ go get -v github.com/madara-io/env
 ```
 
 ### Usage
@@ -37,7 +39,7 @@ Export these values, you can then access them using env now.
 package main
 
 import (
-    "github.com/goanywhere/env"
+    "github.com/madara-io/env"
 )
 
 
@@ -56,7 +58,7 @@ package main
 
 import (
     "fmt"
-    "github.com/goanywhere/env"
+    "github.com/madara-io/env"
 )
 
 type Spec struct {
@@ -91,7 +93,7 @@ package main
 import (
     "fmt"
 
-    "github.com/goanywhere/env"
+    "github.com/madara-io/env"
 )
 
 func main() {
