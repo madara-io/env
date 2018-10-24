@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/goanywhere/fs"
+	"github.com/madara-io/fs"
 )
 
 const tag string = "env"
